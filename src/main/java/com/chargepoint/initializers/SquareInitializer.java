@@ -4,10 +4,6 @@ public class SquareInitializer implements PatternInitializer {
 
     private final int size;
 
-    public SquareInitializer() {
-        size = 3;
-    }
-
     public SquareInitializer(int size) {
         this.size = size;
     }
